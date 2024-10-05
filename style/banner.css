@@ -1,0 +1,54 @@
+:root {
+    --white: #FDFDFD;
+    --white2: #FBFBFB;
+    --green: #0FA958;
+    --green-high: #4fc787;
+    --black: #242424;
+    --black-footer: #101D10;
+    --dark-green: #047517;
+}
+
+.banner-section{
+    padding-top: 94px;
+    background-color: rgb(168, 168, 168);
+}
+
+
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.text-content{
+    width: 450px;
+    height: 500px;
+    margin-bottom: 40px;
+    position: absolute;
+    height: auto;
+    padding: 4px;
+    top: 240px;
+    left: 40px;
+    cursor: default;
+    z-index: 10;
+}
+.text-content h1{
+    font-size: 38px;
+    color: var(--dark-green);
+    margin-bottom: 20px;
+}
+.text-content button{
+    background-color: var(--green);
+    font-weight: 600;
+    color: var(--white);
+    border: none;
+    border-radius: 40px;
+    padding: 7px 16px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.text-content button:hover{
+    background-color: var(--green-high);
+    transition: all .5s;
+}

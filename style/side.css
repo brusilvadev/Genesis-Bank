@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --white: #FDFDFD;
+    --white2: #FBFBFB;
+    --green: #0FA958;
+    --green-high: #4fc787;
+    --black: #242424;
+    --black-footer: #101D10;
+    --dark-green: #047517;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 200px;
+}
+
+/* EDITANDO O CABEÇALHO */
+header{
+    width: 100%;
+    background-color: var(--white);
+    padding: 8px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+/* EDITANDO A LOGO */
+.container-left{
+    width: 5%;
+}
+.container-left img{
+    width: 100%;
+}
+
+/* EDITANDO OS LINKS */
+.container-right{
+    display: flex;
+    width: 65%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    
+}
+.links li{
+    margin: 0 40px;
+    font-size: 18px;
+    color: var(--black);
+    font-weight: 600;
+
+}
+
+.links li a{
+    color: var(--black);
+    text-decoration: none;
+}
+.links li a:hover{
+    color: var(--green);
+    transition: all .5s;
+}
+
+/* EDITANDO BOTÕES */
+.container-third{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.container-third button{
+    padding: 8px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 40px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: all.5s;
+    cursor: pointer;
+}
+
+#btn-1{
+    background-color: var(--white);
+    border: 2px solid var(--green);
+    width: 150px;
+}
+#btn-1:hover{
+    background-color: var(--green);
+    color: white;
+    transition: all.5s;
+}
+#btn-1:hover i{
+    color: white;
+    transition: all.5s;
+}
+
+.bi-person-circle{
+    color: #047517;
+}
+
+#btn-2{
+    background-color: var(--green);
+    color: var(--white);
+    font-weight: 600;
+    width: 180px;
+}
+#btn-2:hover{
+    background-color: var(--green-high);
+    transition: all.5s;
+}
+
+.bi-list{
+    color: green;
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
