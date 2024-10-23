@@ -14,6 +14,10 @@
     --dark-green: #047517;
 }
 
+body{
+    background-color: var(--white);
+}
+
 /* WHO WE ARE */
 .who-container{
     background-color: var(--white);
@@ -117,6 +121,7 @@
     padding: 38px;
     width: 100%;
     cursor: default;
+    margin-bottom: 90px;
 }
 
 .questions h1{

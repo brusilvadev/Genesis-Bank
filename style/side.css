@@ -138,5 +138,84 @@ header{
     display: none;
 }
 
+/* EDITANDO O FOOTER */
+footer{
+    width: 100%;
+    background-color: var(--black-footer);
+    display: flex;
+    flex-direction: column;
+    padding: 38px;
+    cursor: default;
+}
+.footer-container{
+    width: 100%;
+    display: flex;
+}
+
+.footer-container .col{
+    widows: 20%;
+    margin: 0 20px;
+}
+
+.footer-container .col-1 img{
+    width: 70%;
+}
 
 
+.footer-container .col-2 h5{
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer-container .col-2 p{
+    font-size: 12px;
+    color: white;
+}
+.footer-container .col-2 i{
+    font-size: 16px;
+    color: white;
+    margin-right: 8px;
+    transition: all .5s;
+}
+.footer-container .col-2 i:hover{
+    color: var(--green);
+    transition: all .5s;
+}
+
+.footer-container .col-3 h5, .col-4 h5{
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-container .col-3 p, .col-4 p{
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 4px;
+}
+.footer-container .col-4 a{
+    font-weight: 300;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 4px;
+}
+.footer-container .col-4 a:hover{
+    font-weight: 300;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--green-high);
+    margin-bottom: 4px;
+}
+
+.credit{
+    text-align: center;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-top: 40px;
+}
