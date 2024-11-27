@@ -10,7 +10,6 @@
 
 .banner-section{
     padding-top: 94px;
-    background-color: rgb(168, 168, 168);
 }
 
 
@@ -52,3 +51,4 @@
     background-color: var(--green-high);
     transition: all .5s;
 }
+
